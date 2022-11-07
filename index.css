@@ -1,0 +1,15 @@
+html{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+.grid-fluid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+}

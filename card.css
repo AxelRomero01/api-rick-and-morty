@@ -1,0 +1,19 @@
+.card{
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+.card img{
+    padding-top: 5px;
+    height: 120px;
+    width: 120px;
+}
+
+@media (max-width:991px) {
+    .card img{
+        padding: 2.5px;
+        height: 100px;
+        width: 100px;
+    }
+}
